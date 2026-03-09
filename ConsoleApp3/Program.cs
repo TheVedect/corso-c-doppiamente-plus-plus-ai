@@ -11,16 +11,16 @@ namespace ConsoleApp3{
             string altroNumero = Console.ReadLine();
             int num1 = 0;
             int num2 = 0;
-            try {
-                num1 = int.Parse(numero);
-                num2 = int.Parse(altroNumero);
-                
-                int somma = num1 + num2;
-                Console.WriteLine("Somma: " + somma);
-            }
-            catch (Exception e) {
-                Console.WriteLine(e);
-                throw;
+            num1 = int.Parse(numero);
+            num2 = int.Parse(altroNumero);
+            int somma = num1 + num2;
+            Console.WriteLine("Somma: " + somma);
+            if (num1 > num2) {
+                Console.WriteLine("Il primo numero è maggiore del secondo.");
+            } else if (num1 < num2) {
+                Console.WriteLine("Il secondo numero è maggiore del primo.");
+            } else {
+                Console.WriteLine("I due numeri sono uguali.");  
             }
         }
     }
