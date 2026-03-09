@@ -14,6 +14,9 @@ namespace ConsoleApp3{
             try {
                 num1 = int.Parse(numero);
                 num2 = int.Parse(altroNumero);
+                
+                int somma = num1 + num2;
+                Console.WriteLine("Somma: " + somma);
             }
             catch (Exception e) {
                 Console.WriteLine(e);
