@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DB56C653-0BAD-4522-95C5-5FDCC61C046D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{F870A065-CF72-4EE4-98F0-46F55009FC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio1", "Esercizio1\Esercizio1.csproj", "{B24E9DA1-7DAD-4085-90BB-7122C43DD112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Giorno1", "Giorno1", "{03F7DA32-675D-4F65-876C-75FCC1A68D21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB56C653-0BAD-4522-95C5-5FDCC61C046D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB56C653-0BAD-4522-95C5-5FDCC61C046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB56C653-0BAD-4522-95C5-5FDCC61C046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB56C653-0BAD-4522-95C5-5FDCC61C046D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F870A065-CF72-4EE4-98F0-46F55009FC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F870A065-CF72-4EE4-98F0-46F55009FC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F870A065-CF72-4EE4-98F0-46F55009FC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F870A065-CF72-4EE4-98F0-46F55009FC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24E9DA1-7DAD-4085-90BB-7122C43DD112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24E9DA1-7DAD-4085-90BB-7122C43DD112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24E9DA1-7DAD-4085-90BB-7122C43DD112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24E9DA1-7DAD-4085-90BB-7122C43DD112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB56C653-0BAD-4522-95C5-5FDCC61C046D} = {03F7DA32-675D-4F65-876C-75FCC1A68D21}
+		{F870A065-CF72-4EE4-98F0-46F55009FC68} = {03F7DA32-675D-4F65-876C-75FCC1A68D21}
+		{B24E9DA1-7DAD-4085-90BB-7122C43DD112} = {03F7DA32-675D-4F65-876C-75FCC1A68D21}
+	EndGlobalSection
+EndGlobal

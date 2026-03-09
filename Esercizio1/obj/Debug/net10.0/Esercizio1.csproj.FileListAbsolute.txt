@@ -1,0 +1,14 @@
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\bin\Debug\net10.0\Esercizio1.exe
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\bin\Debug\net10.0\Esercizio1.deps.json
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\bin\Debug\net10.0\Esercizio1.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\bin\Debug\net10.0\Esercizio1.dll
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\bin\Debug\net10.0\Esercizio1.pdb
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.dll
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\refint\Esercizio1.dll
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.pdb
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\Esercizio1.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\ConsoleApp1\Esercizio1\obj\Debug\net10.0\ref\Esercizio1.dll
