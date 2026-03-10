@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\bin\Debug\net10.0\Esercizi.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\bin\Debug\net10.0\Esercizi.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\bin\Debug\net10.0\Esercizi.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\bin\Debug\net10.0\Esercizi.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\bin\Debug\net10.0\Esercizi.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\refint\Esercizi.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\Esercizi.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Esercizi\obj\Debug\net10.0\ref\Esercizi.dll

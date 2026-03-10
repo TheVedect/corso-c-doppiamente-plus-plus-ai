@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\bin\Debug\net10.0\Ciclo.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\bin\Debug\net10.0\Ciclo.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\bin\Debug\net10.0\Ciclo.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\bin\Debug\net10.0\Ciclo.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\bin\Debug\net10.0\Ciclo.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\refint\Ciclo.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\Ciclo.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Ciclo\obj\Debug\net10.0\ref\Ciclo.dll
