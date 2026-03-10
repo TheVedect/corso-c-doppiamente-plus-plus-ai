@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Esempio1\\Esempio1.csproj",
-      "projectName": "Esempio1",
-      "projectPath": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Esempio1\\Esempio1.csproj",
+      "projectUniqueName": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Cicli\\Cicli.csproj",
+      "projectName": "Cicli",
+      "projectPath": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Cicli\\Cicli.csproj",
       "packagesPath": "C:\\Users\\JLENPC22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Esempio1\\obj\\",
+      "outputPath": "C:\\Users\\JLENPC22\\RiderProjects\\CorsoCDoppiamentePiuPiuAI\\Cicli\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JLENPC22\\AppData\\Roaming\\NuGet\\NuGet.Config"
