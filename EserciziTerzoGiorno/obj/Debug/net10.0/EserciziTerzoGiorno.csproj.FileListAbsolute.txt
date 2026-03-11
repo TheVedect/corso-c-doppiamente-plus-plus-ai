@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\bin\Debug\net10.0\EserciziTerzoGiorno.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\bin\Debug\net10.0\EserciziTerzoGiorno.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\bin\Debug\net10.0\EserciziTerzoGiorno.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\bin\Debug\net10.0\EserciziTerzoGiorno.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\bin\Debug\net10.0\EserciziTerzoGiorno.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\refint\EserciziTerzoGiorno.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\EserciziTerzoGiorno.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziTerzoGiorno\obj\Debug\net10.0\ref\EserciziTerzoGiorno.dll
