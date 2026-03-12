@@ -3,10 +3,31 @@ using System.Collections.Generic;
 
 namespace Tombola{
     public class Tabellone{
+        private int prossima_vincita = 2;
         private static int I = 9;
         private static int J = 10;
         public int[,] tabellone = new int[I,J];
         public List<int> numeri_usciti = new List<int>();
+
+        public int Prossima_vincita {
+            get {
+                return prossima_vincita;
+            }
+            set {
+                prossima_vincita = value;
+            }
+        }
+
+        public void AggiornaVincita() {
+            if (prossima_vincita == 5) {
+                Console.WriteLine("SI VA PER LA TOMBOLA!");
+                prossima_vincita = 15;
+            }
+            else {
+                prossima_vincita++;
+                Console.WriteLine("SI VA PER LA " + prossima_vincita);
+            }
+        }
 
         public Tabellone() {
             for (int i = 0; i < I; i++) {

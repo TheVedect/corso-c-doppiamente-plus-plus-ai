@@ -40,9 +40,9 @@ public class Cartella{
                 if (j == 0) {
                     n = rnd.Next(1, 10);
                 }else if (j == 8) {
-                    n = (j - 1) * 10 + rnd.Next(0, 11);
+                    n = j * 10 + rnd.Next(0, 11);
                 }else {
-                    n = (j - 1) * 10 + rnd.Next(0, 10);
+                    n = j * 10 + rnd.Next(0, 10);
                 }
                 if (!numeri_usciti.Contains(n)) {
                     numeri_usciti.Add(n);
@@ -52,11 +52,11 @@ public class Cartella{
             }
         }
         //ULTIMI 5 NUMERI
-        for (int j = 0; j<5; j++) {
+        for (int j = 0; j<6; j++) {
             while(true) {
                 while (true) {
                     a = rnd.Next(0,3);
-                    b = rnd.Next(0,10);
+                    b = rnd.Next(0,9);
                     if (cartella[a, b] == 0) {
                         break;
                     }
@@ -85,13 +85,13 @@ public class Cartella{
                 if (b == 0) {
                     n = rnd.Next(1, 10);
                 }else if (b == 8) {
-                    n = (b - 1) * 10 + rnd.Next(0, 11);
+                    n = b * 10 + rnd.Next(0, 11);
                 }else {
-                    n = (b - 1) * 10 + rnd.Next(0, 10);
+                    n = b * 10 + rnd.Next(0, 10);
                 }
                 if (!numeri_usciti.Contains(n)) {
                     numeri_usciti.Add(n);
-                    cartella[a,j] = n;
+                    cartella[a,b] = n;
                     break;
                 }
             }
@@ -99,7 +99,14 @@ public class Cartella{
     }
 
     public void AggiornaCartella(int numero_estratto) {
-        
+        for (int i = 0; i < I; i++) {
+            for (int j = 0; j < J; j++) {
+                if (cartella[i, j] == numero_estratto) {
+                    cartella[i, j] = -1;
+                    break;
+                }
+            }
+        }
     }
 
     public void VisualizzaCartella() {
