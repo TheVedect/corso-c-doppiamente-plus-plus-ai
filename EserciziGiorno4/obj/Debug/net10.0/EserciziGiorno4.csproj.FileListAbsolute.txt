@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\bin\Debug\net10.0\EserciziGiorno4.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\bin\Debug\net10.0\EserciziGiorno4.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\bin\Debug\net10.0\EserciziGiorno4.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\bin\Debug\net10.0\EserciziGiorno4.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\bin\Debug\net10.0\EserciziGiorno4.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\refint\EserciziGiorno4.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\EserciziGiorno4.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EserciziGiorno4\obj\Debug\net10.0\ref\EserciziGiorno4.dll

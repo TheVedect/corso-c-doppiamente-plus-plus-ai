@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\bin\Debug\net10.0\Pilastri.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\bin\Debug\net10.0\Pilastri.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\bin\Debug\net10.0\Pilastri.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\bin\Debug\net10.0\Pilastri.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\bin\Debug\net10.0\Pilastri.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\refint\Pilastri.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\Pilastri.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\Pilastri\obj\Debug\net10.0\ref\Pilastri.dll
