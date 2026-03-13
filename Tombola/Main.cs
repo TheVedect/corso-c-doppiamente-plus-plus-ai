@@ -7,21 +7,6 @@ namespace Tombola{
         public static void ControllaVincita(List<Giocatore> giocatori, Tabellone t, out bool tombola) {
             bool premio_vinto = false;
             tombola = false;
-            /*
-            int contatore_tabellone = 0;
-            for (int i = 0; i < 3; i++) {
-                for (int j = 0; j < 9; j++) {
-                    if (t.tabellone[i, j] == -1) {
-                        contatore_tabellone++;
-                    }
-                }
-
-                if (contatore_tabellone == t.Prossima_vincita) {
-                    t.AggiornaVincita();
-                    return;
-                }
-            }
-            */
             foreach (Giocatore giocatore in giocatori) {
                 int indice_tabella = 0;
                 foreach (Cartella cartella in giocatore.cartelle) {
@@ -74,21 +59,8 @@ namespace Tombola{
         private static void Main(string[] args) {
             Random rnd = new Random();
             Tabellone tabellone = new Tabellone("Tabellone", 6);
-            //tabellone.VisualizzaTabellone();
-            /*
-            for (int i = 0; i < 90; i++) {
-                tabellone.PescaNumero();
-            }
-            tabellone.VisualizzaUsciti();
-            Cartella[] cartelle = new Cartella[3];
-            for (int i = 0; i < cartelle.Length; i++) {
-                cartelle[i] = new Cartella();
-                cartelle[i].VisualizzaCartella();
-                Console.WriteLine();
-            }
-            */
-            
-            Console.WriteLine("Quanti giocatori? ");
+            Console.WriteLine("Benvenuto al gioco della TOMBOLA!");
+            Console.WriteLine("In quanti giocatori siete? ");
             int numero_giocatori = int.Parse(Console.ReadLine());
             List<Giocatore> giocatori = new List<Giocatore>();
 
@@ -110,16 +82,75 @@ namespace Tombola{
             bool gioco_finito = false;
 
             while (!gioco_finito) {
-                int numero_uscito = tabellone.PescaNumero();
-                foreach (Giocatore giocatore in giocatori) {
-                    foreach (Cartella cartella in giocatore.cartelle) {
-                        cartella.AggiornaCartella(numero_uscito);
-                    }
+                Console.Write("Prego, inserire l'azione desiderata tra quelle scelte!\n" +
+                              "1-Pesca un numero;\n" +
+                              "2-Pesca tutti i numeri in automatico;\n" +
+                              "3-Visualizza tabellone;\n" +
+                              "4-Visualizza prossima vincita disponibile;\n" +
+                              "5-Visualizza schede;\n" +
+                              "6-Visualizza numeri usciti.\n");
+                Console.ResetColor();
+                int selettore_azione = int.Parse(Console.ReadLine());
+                int numero_uscito = 0;
+                switch (selettore_azione) {
+                    case 1:
+                        numero_uscito = tabellone.PescaNumero();
+                        foreach (Giocatore giocatore in giocatori) {
+                            foreach (Cartella cartella in giocatore.cartelle) {
+                                cartella.AggiornaCartella(numero_uscito);
+                            }
+                        }
+                        ControllaVincita(giocatori, tabellone, out gioco_finito);
+                        if (gioco_finito) {
+                            Console.WriteLine("TOMBOLAAAA!");
+                        }
+                        break;
+                    case 2:
+                        while (!gioco_finito) {
+                            numero_uscito = tabellone.PescaNumero();
+                            foreach (Giocatore giocatore in giocatori) {
+                                foreach (Cartella cartella in giocatore.cartelle) {
+                                    cartella.AggiornaCartella(numero_uscito);
+                                }
+                            }
+                            ControllaVincita(giocatori, tabellone, out gioco_finito);
+                            if (gioco_finito) {
+                                Console.WriteLine("TOMBOLAAAA!");
+                            }
+                        }
+                        break;
+                    case 3:
+                        foreach (Cartella cartella in tabellone.cartelle) {
+                            cartella.VisualizzaCartella(3, 5);
+                        }
+                        
+                        break;
+                    case 4:
+                        Console.WriteLine("La prossima vincita è: " + tabellone.Prossima_vincita + ".");
+                        break;
+                    case 5:
+                        foreach (Giocatore giocatore in giocatori) {
+                            if (giocatore is not Tabellone) {
+                                Console.WriteLine("Cartelle di " +  giocatore.nome_giocatore + ":");
+                            }
+                            foreach (Cartella cartella in giocatore.cartelle) {
+                                if (giocatore is not Tabellone) {
+                        
+                                    cartella.VisualizzaCartella();
+                                }
+                                Console.WriteLine();
+                            }
+                            Console.WriteLine();
+                        }
+                        break;
+                    case 6:
+                        tabellone.VisualizzaUsciti();
+                        break;
+                    default:
+                        break;
                 }
-                ControllaVincita(giocatori, tabellone, out gioco_finito);
-                if (gioco_finito) {
-                    Console.WriteLine("TOMBOLAAAA!");
-                }
+                
+                
             }
             
             foreach (Giocatore giocatore in giocatori) {

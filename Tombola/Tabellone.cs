@@ -30,7 +30,8 @@ namespace Tombola{
         }
 
         public Tabellone(string nome, int N) : base() {
-            for (int i = 0; i < 6; i++) {
+            nome_giocatore = nome;
+            for (int i = 0; i < N; i++) {
                 Cartella cartella = new Cartella(i);
                 cartelle.Add(cartella);
             }
