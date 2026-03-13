@@ -6,6 +6,14 @@ public class Cartella{
     public int[,] cartella = new int[I,J];
     public List<int> numeri_usciti = new List<int>();
 
+    public Cartella(int numero_della_tabella) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 5; j++) {
+                cartella[i,j] = (j + 1) + i * 10 + (numero_della_tabella % 3) * 30 + (numero_della_tabella / 3) * 5;
+            }
+        }
+    }
+
     public Cartella() {
         Random rnd = new Random();
         int x = 0;
@@ -112,6 +120,15 @@ public class Cartella{
     public void VisualizzaCartella() {
         for (int i = 0; i < I; i++) {
             for (int j = 0; j < J; j++) {
+                Console.Write(cartella[i,j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    public void VisualizzaCartella(int ii, int jj) {
+        for (int i = 0; i < ii; i++) {
+            for (int j = 0; j < jj; j++) {
                 Console.Write(cartella[i,j] + " ");
             }
             Console.WriteLine();

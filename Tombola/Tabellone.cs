@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 
 namespace Tombola{
-    public class Tabellone{
+    public class Tabellone: Giocatore{
         private int prossima_vincita = 2;
         public int numero_tombola = 15;
         private static int I = 9;
         private static int J = 10;
-        public int[,] tabellone = new int[I,J];
         public List<int> numeri_usciti = new List<int>();
 
         public int Prossima_vincita {
@@ -30,18 +29,16 @@ namespace Tombola{
             }
         }
 
-        public Tabellone() {
-            for (int i = 0; i < I; i++) {
-                for (int j = 0; j < J; j++) {
-                    tabellone[i, j] = i * 10 + j + 1;
-                }
+        public Tabellone(string nome, int N) : base(nome, N) {
+            for (int i = 0; i < 6; i++) {
+                Cartella cartella = new Cartella(i);
+                cartelle.Add(cartella);
             }
         }
 
         public void VisualizzaTabellone() {
             for (int i = 0; i < I; i++) {
                 for (int j = 0; j < J; j++) {
-                    Console.Write(tabellone[i, j] + " ");
                     if (i == 0) {
                         Console.Write(" ");
                     }

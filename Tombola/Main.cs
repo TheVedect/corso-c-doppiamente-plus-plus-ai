@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Tombola{
     internal class Program{
 
-        public static void ControllaVincita(Giocatore[] giocatori, Tabellone t, out bool tombola) {
+        public static void ControllaVincita(List<Giocatore> giocatori, Tabellone t, out bool tombola) {
             bool premio_vinto = false;
             tombola = false;
             /*
@@ -73,7 +73,7 @@ namespace Tombola{
         }
         private static void Main(string[] args) {
             Random rnd = new Random();
-            Tabellone tabellone = new Tabellone();
+            Tabellone tabellone = new Tabellone("Tabellone", 6);
             //tabellone.VisualizzaTabellone();
             /*
             for (int i = 0; i < 90; i++) {
@@ -90,19 +90,22 @@ namespace Tombola{
             
             Console.WriteLine("Quanti giocatori? ");
             int numero_giocatori = int.Parse(Console.ReadLine());
-            Giocatore[] giocatori = new Giocatore[numero_giocatori];
+            List<Giocatore> giocatori = new List<Giocatore>();
 
             for (int i = 0; i < numero_giocatori; i++) {
                 Console.WriteLine("Come si chiama il Giocatore numero " + (i + 1) + "?");
                 string nome_giocatore = Console.ReadLine();
                 Console.WriteLine("Quante cartelle ha " + nome_giocatore + "? ");
                 int numero_cartelle = int.Parse(Console.ReadLine());
-                giocatori[i] = new Giocatore(nome_giocatore, numero_cartelle);
+                Giocatore giocatore = new Giocatore(nome_giocatore, numero_cartelle);
+                giocatori.Add(giocatore);
+                Console.WriteLine("Queste sono le cartelle di " + nome_giocatore +":");
                 foreach (Cartella cartella in giocatori[i].cartelle) {
                     cartella.VisualizzaCartella();
                     Console.WriteLine();
                 }
             }
+            giocatori.Add(tabellone);
             
             bool gioco_finito = false;
 
@@ -122,7 +125,12 @@ namespace Tombola{
             foreach (Giocatore giocatore in giocatori) {
                 Console.WriteLine("Cartelle di " +  giocatore.nome_giocatore + ":");
                 foreach (Cartella cartella in giocatore.cartelle) {
-                    cartella.VisualizzaCartella();
+                    if (giocatore is not Tabellone) {
+                        
+                        cartella.VisualizzaCartella();
+                    }else {
+                        cartella.VisualizzaCartella(3, 5);   
+                    }
                     Console.WriteLine();
                 }
                 Console.WriteLine();
