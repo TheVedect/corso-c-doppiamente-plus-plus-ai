@@ -8,6 +8,10 @@ namespace Tombola{
         public int numero_cartelle;
         public List<Cartella> cartelle  = new List<Cartella>();
 
+        public Giocatore() {
+            
+        }
+
         public Giocatore(string nome, int N) {
             nome_giocatore = nome;
             for (int i = 0; i < N; i++) {

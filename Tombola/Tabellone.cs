@@ -29,7 +29,7 @@ namespace Tombola{
             }
         }
 
-        public Tabellone(string nome, int N) : base(nome, N) {
+        public Tabellone(string nome, int N) : base() {
             for (int i = 0; i < 6; i++) {
                 Cartella cartella = new Cartella(i);
                 cartelle.Add(cartella);
