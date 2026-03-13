@@ -4,12 +4,14 @@ public class Cartella{
     private static int I = 3;
     private static int J = 9;
     public int[,] cartella = new int[I,J];
+    public int[,] cartella_iniziale = new int[I,J];
     public List<int> numeri_usciti = new List<int>();
 
     public Cartella(int numero_della_tabella) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 5; j++) {
                 cartella[i,j] = (j + 1) + i * 10 + (numero_della_tabella % 3) * 30 + (numero_della_tabella / 3) * 5;
+                cartella_iniziale[i, j] = cartella[i,j];
             }
         }
     }
@@ -55,6 +57,7 @@ public class Cartella{
                 if (!numeri_usciti.Contains(n)) {
                     numeri_usciti.Add(n);
                     cartella[a,j] = n;
+                    cartella_iniziale[a,j] = n;
                     break;
                 }
             }
@@ -100,6 +103,7 @@ public class Cartella{
                 if (!numeri_usciti.Contains(n)) {
                     numeri_usciti.Add(n);
                     cartella[a,b] = n;
+                    cartella_iniziale[a,b] = n;
                     break;
                 }
             }
@@ -120,7 +124,13 @@ public class Cartella{
     public void VisualizzaCartella() {
         for (int i = 0; i < I; i++) {
             for (int j = 0; j < J; j++) {
-                Console.Write(cartella[i,j] + " ");
+                if (cartella[i, j] == -1) {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(cartella_iniziale[i, j] + " ");
+                    Console.ResetColor();
+                }else {
+                    Console.Write(cartella[i,j] + " ");
+                }
             }
             Console.WriteLine();
         }
@@ -129,7 +139,13 @@ public class Cartella{
     public void VisualizzaCartella(int ii, int jj) {
         for (int i = 0; i < ii; i++) {
             for (int j = 0; j < jj; j++) {
-                Console.Write(cartella[i,j] + " ");
+                if (cartella[i, j] == -1) {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(cartella_iniziale[i, j] + " ");
+                    Console.ResetColor();
+                }else {
+                    Console.Write(cartella[i,j] + " ");
+                }
             }
             Console.WriteLine();
         }

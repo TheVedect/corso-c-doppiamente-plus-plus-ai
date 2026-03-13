@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tombola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901aa6425ec615aeec7d459e511d5b4267614033")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+768425d893b54e1341a21186977bdaf737ca26aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tombola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tombola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
