@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace Tombola{
     public class Tabellone{
         private int prossima_vincita = 2;
+        public int numero_tombola = 15;
         private static int I = 9;
         private static int J = 10;
         public int[,] tabellone = new int[I,J];

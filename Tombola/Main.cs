@@ -4,8 +4,9 @@ using System.Collections.Generic;
 namespace Tombola{
     internal class Program{
 
-        public static void ControllaVincita(Giocatore[] giocatori, Tabellone t) {
+        public static void ControllaVincita(Giocatore[] giocatori, Tabellone t, out bool tombola) {
             bool premio_vinto = false;
+            tombola = false;
             /*
             int contatore_tabellone = 0;
             for (int i = 0; i < 3; i++) {
@@ -22,27 +23,37 @@ namespace Tombola{
             }
             */
             foreach (Giocatore giocatore in giocatori) {
-                    int indice_tabella = 1;
+                int indice_tabella = 0;
                 foreach (Cartella cartella in giocatore.cartelle) {
+                    indice_tabella++;
                     int contatore = 0;
+                    int contatore_tombola = 0;
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 9; j++) {
                             if (cartella.cartella[i, j] == -1) {
                                 contatore++;
+                                contatore_tombola++;
                                 if (contatore == t.Prossima_vincita) {
                                     Console.WriteLine("Il giocatore " + giocatore.nome_giocatore + " ha fatto " + contatore +
                                                       " nella tabella numero " + indice_tabella + ".");
                                     premio_vinto = true;
                                     break;
                                 }
+
+                                if (contatore_tombola == t.numero_tombola) {
+                                    Console.WriteLine("Il giocatore " + giocatore.nome_giocatore +
+                                                      " ha fatto TOMBOLA nella tabella numero " + indice_tabella + ".");
+                                    premio_vinto = true;
+                                    tombola = true;
+                                    break;
+                                }
                             }
 
-                            contatore = 0;
                         }
+                        contatore = 0;
                         if (premio_vinto) {
                             break;
                         }
-                        indice_tabella++;
                     }
 
                     if (premio_vinto) {
@@ -54,6 +65,10 @@ namespace Tombola{
 
             if (premio_vinto) {
                 t.AggiornaVincita();
+            }
+
+            if (tombola) {
+                return;
             }
         }
         private static void Main(string[] args) {
@@ -88,15 +103,20 @@ namespace Tombola{
                     Console.WriteLine();
                 }
             }
+            
+            bool gioco_finito = false;
 
-            for (int i = 0; i < 10; i++) {
+            while (!gioco_finito) {
                 int numero_uscito = tabellone.PescaNumero();
                 foreach (Giocatore giocatore in giocatori) {
                     foreach (Cartella cartella in giocatore.cartelle) {
                         cartella.AggiornaCartella(numero_uscito);
                     }
                 }
-                ControllaVincita(giocatori, tabellone);
+                ControllaVincita(giocatori, tabellone, out gioco_finito);
+                if (gioco_finito) {
+                    Console.WriteLine("TOMBOLAAAA!");
+                }
             }
             
             foreach (Giocatore giocatore in giocatori) {
