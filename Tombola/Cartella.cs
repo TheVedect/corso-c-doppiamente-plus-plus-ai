@@ -125,11 +125,11 @@ public class Cartella{
         for (int i = 0; i < I; i++) {
             for (int j = 0; j < J; j++) {
                 if (cartella[i, j] == -1) {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write(cartella_iniziale[i, j] + " ");
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.Write($"[{cartella_iniziale[i, j],2}] ");
                     Console.ResetColor();
                 }else {
-                    Console.Write(cartella[i,j] + " ");
+                    Console.Write($"[{cartella[i, j],2}] ");
                 }
             }
             Console.WriteLine();
@@ -140,11 +140,11 @@ public class Cartella{
         for (int i = 0; i < ii; i++) {
             for (int j = 0; j < jj; j++) {
                 if (cartella[i, j] == -1) {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write(cartella_iniziale[i, j] + " ");
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.Write($"[{cartella_iniziale[i, j],2}] ");
                     Console.ResetColor();
                 }else {
-                    Console.Write(cartella[i,j] + " ");
+                    Console.Write($"[{cartella[i, j],2}] ");
                 }
             }
             Console.WriteLine();

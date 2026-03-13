@@ -120,10 +120,12 @@ namespace Tombola{
                         }
                         break;
                     case 3:
+                        /*
                         foreach (Cartella cartella in tabellone.cartelle) {
                             cartella.VisualizzaCartella(3, 5);
                         }
-                        
+                        */
+                        tabellone.VisualizzaTabellone();
                         break;
                     case 4:
                         Console.WriteLine("La prossima vincita è: " + tabellone.Prossima_vincita + ".");
