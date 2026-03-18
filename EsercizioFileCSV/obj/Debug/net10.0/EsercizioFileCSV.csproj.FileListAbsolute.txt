@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\bin\Debug\net10.0\EsercizioFileCSV.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\bin\Debug\net10.0\EsercizioFileCSV.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\bin\Debug\net10.0\EsercizioFileCSV.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\bin\Debug\net10.0\EsercizioFileCSV.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\bin\Debug\net10.0\EsercizioFileCSV.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\refint\EsercizioFileCSV.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\EsercizioFileCSV.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFileCSV\obj\Debug\net10.0\ref\EsercizioFileCSV.dll

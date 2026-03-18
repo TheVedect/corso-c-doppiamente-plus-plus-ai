@@ -1,0 +1,15 @@
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\bin\Debug\net10.0\EsercizioFile.exe
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\bin\Debug\net10.0\EsercizioFile.deps.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\bin\Debug\net10.0\EsercizioFile.runtimeconfig.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\bin\Debug\net10.0\EsercizioFile.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\bin\Debug\net10.0\EsercizioFile.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.AssemblyInfoInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.AssemblyInfo.cs
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.csproj.CoreCompileInputs.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.sourcelink.json
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\refint\EsercizioFile.dll
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.pdb
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\EsercizioFile.genruntimeconfig.cache
+C:\Users\JLENPC22\RiderProjects\CorsoCDoppiamentePiuPiuAI\EsercizioFile\obj\Debug\net10.0\ref\EsercizioFile.dll

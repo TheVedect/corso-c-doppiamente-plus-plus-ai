@@ -1,0 +1,17 @@
+﻿[
+  {
+    "nome": "Mario",
+    "cognome": "Rossi",
+    "eta": 28
+  },
+  {
+    "nome": "Luigi",
+    "cognome": "Verdi",
+    "eta": 35
+  },
+  {
+    "nome": "Anna",
+    "cognome": "Bianchi",
+    "eta": 22
+  }
+]
