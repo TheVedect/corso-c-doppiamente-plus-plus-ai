@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EserciziTerzoGiorno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3f675447bf32b15883bddf722f1be114c190249")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+213313147c8d6e45c9a9949400c9a51aafd8cab5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EserciziTerzoGiorno")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EserciziTerzoGiorno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
